@@ -1,0 +1,45 @@
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px 30px;
+  gap: 10px;
+  height: 400px;
+  width: 400px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+ul li {
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.button {
+  width: 200px;
+  background-color: red;
+  color: white;
+  outline: none;
+  border: none;
+  height: 40px;
+  border-radius: 30px;
+}
+.btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .correct {
+  background-color: rgb(146, 227, 146);
+}
+.container .incorrect {
+  background-color: rgb(234, 97, 97);
+}
